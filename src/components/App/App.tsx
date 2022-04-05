@@ -8,7 +8,7 @@ type VialsObj = {
   colors: string[]
 }
 
-const colors = ['#A000A0', '#004C3F', '#FFEB3E', '#B4DBF9', '#2D1C4B', '#FF5B5B', '#88C43A', '#B000B1', '#00FFFF', '#4F7942', '#FC0FC0', '#816AB0']
+const colors = ['#A000A0', '#004C3F', '#FFEB3E', '#B4DBF9', '#2D1C4B', '#FF5B5B', '#88C43A', '#9B7FE6', '#00FFFF', '#4F7942', '#FC0FC0', '#816AB0']
 
 const generateVials = (countVials: number, countColorsInVials: number): VialsObj[] => {
   const vials = []
