@@ -1,0 +1,45 @@
+.app {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #ccc;
+
+  &__wrapper {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
+  }
+
+  &__refresh {
+    margin-left: -10px;
+    margin-right: 10px;
+    padding-bottom: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    background: #186EEE;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1353B3;
+    }
+  }
+}
