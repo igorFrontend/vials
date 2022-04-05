@@ -31,7 +31,7 @@ module.exports = {
     },
     output: {
         filename: isProd ? '[name].js' : '[name].[hash].js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'docs')
     },
     module: {
         rules: [
@@ -125,7 +125,7 @@ module.exports = {
         }),
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin([
-            { from: path.resolve(__dirname, 'static'), to: path.resolve(__dirname, 'dist') }
+            { from: path.resolve(__dirname, 'static'), to: path.resolve(__dirname, 'docs') }
         ]),
         new MiniCSSExtractPlugin({
             filename: '[name].[hash].css'
